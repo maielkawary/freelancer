@@ -1,0 +1,108 @@
+html, body {
+    margin:0px;
+    height:100%;
+    font-size: 105%;
+    
+} 
+ul {
+    list-style: none;
+    padding-inline-start: 0%;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+#head {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/Things_successful_freelancers_do_at_home_body-1.jpg');	
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0px;
+    padding: 17%;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    
+}
+#topics {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    background-color: #899499;
+    height: max-content;
+    padding: 5%;
+    flex-grow: 1;
+
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+li {
+    padding: 2%;
+}
+hr {
+    background-color: whitesmoke;
+    height: 1px;
+    border: none;
+} 
+#main{
+    padding: 3%; 
+    background-color: ghostwhite;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-right: 5%;
+
+}
+h1{
+    font-size: 300%;
+    padding:10% ;
+    
+    
+}
+#text{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    
+    text-align: center;
+    
+}
+ #footer{
+    
+    padding-bottom:20% ;
+    background-color: #270858 ;
+    color: white;
+    text-align: center;
+ }
+ #navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #36454F;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+ }
+
+ a:link,a:visited,a:active{
+    color: rgb(238, 255, 255);
+    background-color: inherit;
+    border: none;
+ }
+ a:hover{
+    outline: #293a46 solid 13px;
+    background-color: #293a46;
+}
+ .parent{
+    overflow: visible;
+ }
+
+
